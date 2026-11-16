@@ -22,7 +22,13 @@ int main() {
     } else if (gal > 50 && gal <=150) {
         pr = 50 + ((gal-50)*1.5);
     } else if (gal > 150 && gal <= 250) {
-
+        pr = 50 + (100*1.5) + ((gal-150)*2.0);
+    } else if (gal > 250) {
+        pr = 50 + (150) + (200) + ((gal-250)*2.5);
     }
+
+    pr = pr + (0.15*pr);
+
+    printf("Final Bill: %f",pr);
     return 0;
 }

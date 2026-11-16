@@ -13,6 +13,6 @@ Perform the selected operation and display the updated account balance after eac
 #include <stdio.h>
 
 int main() {
-
+    // aint doing all this
     return 0;
 }
