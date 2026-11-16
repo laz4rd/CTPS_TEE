@@ -13,6 +13,16 @@ After calculating the bill, add a surcharge of 15% to the total amount and displ
 #include <stdio.h>
 
 int main() {
+    float gal, pr;
+    printf("Enter water in gallons");
+    scanf("%f",&gal);
 
+    if (gal <= 50) {
+        pr = 1 * gal;
+    } else if (gal > 50 && gal <=150) {
+        pr = 50 + ((gal-50)*1.5);
+    } else if (gal > 150 && gal <= 250) {
+
+    }
     return 0;
 }
