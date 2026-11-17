@@ -6,6 +6,12 @@ Write a structure cricket with information like Player Name, Team Name & Batting
 
 #include <stdio.h>
 
+struct cricket {
+    char nm[50];
+    char tm[50];
+    float bvg;
+};
+
 int main() {
 
     return 0;

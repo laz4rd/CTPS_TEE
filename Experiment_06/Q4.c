@@ -7,11 +7,6 @@ Demonstrate the insertion operation by writing a C program that accepts an eleme
 #include <stdio.h>
 
 int main() {
-    int x = 10;
-    int y = 20;
-    int *x1 = &x;
-    int *y1 = &y;
-    int sum = *x1+*y1;
-    printf("%d",sum);
+
     return 0;
 }
